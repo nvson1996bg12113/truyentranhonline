@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.binhtt.truyentranhonline.widget.RippleView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mLnMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    ripple:rv_centered="true">
+
+    <TextView
+        android:id="@+id/mTvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="@dimen/layout_margin_big"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_medium"/>
+</com.binhtt.truyentranhonline.widget.RippleView>

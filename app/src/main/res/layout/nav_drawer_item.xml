@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true">
+
+    <TextView
+        android:id="@+id/mTvTitle"
+        android:gravity="left"
+        style="@style/OneMediumNormalBlack"
+        android:layout_width="match_parent"
+        android:paddingBottom="@dimen/layout_margin_big"
+        android:paddingLeft="@dimen/layout_margin_big"
+        android:paddingTop="@dimen/layout_margin_big"/>
+</RelativeLayout>

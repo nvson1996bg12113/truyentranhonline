@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mHomeFragment"
+            android:title="@string/nav_item_home"/>
+        <item
+            android:id="@+id/mTruyenTranhHot"
+            android:title="@string/nav_item_hot"/>
+        <item
+            android:id="@+id/mTruyenTranhNew"
+            android:title="@string/nav_item_new"/>
+        <item
+            android:id="@+id/mTruyenTranhAdult"
+            android:title="@string/nav_item_adult"/>
+        <item
+            android:id="@+id/mTruyenTranhManhWa"
+            android:title="@string/nav_item_manhwa"/>
+        <item
+            android:id="@+id/mTruyenTranhSport"
+            android:title="@string/nav_item_sport"/>
+        <item
+            android:id="@+id/mInfoFragment"
+            android:title="@string/nav_item_info"/>
+    </group>
+</menu>

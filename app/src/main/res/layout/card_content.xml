@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <com.binhtt.truyentranhonline.widget.AlphaImageView
+        android:id="@+id/mImgAvatar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/avatar_image_size_big"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_avatar_profile"/>
+
+    <TextView
+        android:id="@+id/mTvTap"
+        style="@style/OneSmallNormalBlack"
+        android:layout_gravity="center"
+        android:paddingEnd="@dimen/layout_margin_small"
+        android:paddingStart="@dimen/layout_margin_small"
+        android:paddingTop="@dimen/layout_margin_small"/>
+</LinearLayout>

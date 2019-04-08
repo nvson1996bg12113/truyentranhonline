@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:id="@+id/mLnInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/mLabelView"
+                style="@style/OneSmallNormalBlack"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/layout_margin_big"
+                android:text="@string/view_number"/>
+
+            <TextView
+                android:id="@+id/mTvTimePost"
+                style="@style/OneSmallNormalBlack"
+                android:layout_below="@+id/mLabelView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/layout_margin_small"/>
+        </RelativeLayout>
+
+        <View
+            style="@style/ViewLine"
+            android:layout_below="@+id/mImgAvatar"
+            android:layout_marginBottom="@dimen/layout_margin_big"
+            android:layout_marginTop="@dimen/layout_margin_big"/>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/mLabelLike"
+                style="@style/OneSmallNormalBlack"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/layout_margin_big"
+                android:text="@string/like_number"/>
+
+            <TextView
+                android:id="@+id/mTvComment"
+                style="@style/OneSmallNormalBlack"
+                android:layout_below="@+id/mLabelLike"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/layout_margin_small"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        style="@style/ViewLineHorizontal"
+        android:layout_below="@+id/mLnInfo"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mLnInfo"
+        android:layout_marginTop="@dimen/layout_margin_big"
+        android:clipToPadding="false"
+        android:nestedScrollingEnabled="false"
+        android:scrollbars="vertical"/>
+</RelativeLayout>

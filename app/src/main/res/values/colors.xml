@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/main</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="gray">#e6e6e6</color>
+    <color name="red">#B4232E</color>
+    <color name="green">#00ff00</color>
+    <color name="green_light">#6b9876</color>
+    <color name="blue">#53A0ED</color>
+    <color name="blue_face">#4D76CF</color>
+    <color name="blue_face_pressed">#3C4383</color>
+    <color name="blue_chat_friend">#9BCEF1</color>
+    <color name="blue_chat_mine">#DEF0F4</color>
+    <color name="blue_light">#E1F2F7</color>
+    <color name="yellow">#FFEE00</color>
+    <color name="yellow_light">#ad8f46</color>
+
+    <color name="main">@color/red</color>
+    <color name="main_black">#5a3e1c</color>
+    <color name="hint">@color/gray</color>
+    <color name="divider">#333333</color>
+    <color name="overlay">#AA1C1C1C</color>
+    <color name="rippelColor">@color/gray</color>
+    <color name="fab_color_shadow">#44000000</color>
+    <color name="btn_send_normal">@color/main</color>
+    <color name="btn_send_pressed">#E5D400</color>
+    <color name="orange">#f89406</color>
+
+    <color name="text_color_gray">#5B5B5B</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+</resources>

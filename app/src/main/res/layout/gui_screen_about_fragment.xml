@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/mainContent"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/main"
+              android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/avatar_image_size_small"
+        android:layout_height="@dimen/avatar_image_size_small"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/header_height_medium"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        style="@style/OneBigNormalWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin_bigger"
+        android:gravity="center"
+        android:text="@string/app_name"/>
+
+    <TextView
+        style="@style/OneMediumNormalWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin_bigger"
+        android:text="@string/version"/>
+
+    <TextView
+        style="@style/OneMediumNormalWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin_big"
+        android:text="Được phát triển bởi Nguyễn Sơn" />
+
+    <TextView
+        style="@style/OneMediumNormalWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin_big"
+        android:text="Mọi góp ý xin vui lòng gửi mail về:"/>
+
+    <com.binhtt.truyentranhonline.widget.AlphaTextView
+        android:id="@+id/mTvSendMail"
+        style="@style/OneMediumNormalBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_margin_medium"
+        android:padding="@dimen/layout_margin_big"
+        android:text="nvson1996bg@gmail.com"
+        android:textColor="@color/blue_face" />
+</LinearLayout>
